@@ -9,7 +9,7 @@ function Footer() {
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            <p>Copyright © 2026 Petar Atanasov. All rights reserved.</p>
+            <p>Copyright © {new Date().getFullYear()} Petar Atanasov. All rights reserved.</p>
         </footer>
     )
 }
